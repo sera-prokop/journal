@@ -25,8 +25,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Журнал - Брестский ПКВП</title>
-<link href="./css/style.css" rel="stylesheet">
+<title>Брестский ПКВП — Журнал</title>
+<link href="./css-main/style.css" rel="stylesheet">
 </head>
 <body>
 <br>
@@ -40,19 +40,19 @@
     </tr>
     <?php } ?>
     <tr>
-      <td colspan="2" align="left" valign="top"><h3>Login</h3></td>
+      <td colspan="2" align="left" valign="top"><h3>Авторизация</h3></td>
     </tr>
     <tr>
-      <td align="right" valign="top">Username</td>
+      <td align="right" valign="top">Имя пользователя</td>
       <td><input name="Username" type="text" class="Input"></td>
     </tr>
     <tr>
-      <td align="right">Password</td>
+      <td align="right">Пароль</td>
       <td><input name="Password" type="password" class="Input"></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
-      <td><input name="Submit" type="submit" value="Login" class="Button3"></td>
+      <td><input name="Submit" type="submit" value="Войти" class="Button3"></td>
     </tr>
   </table>
 </form>

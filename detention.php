@@ -9,7 +9,7 @@
     <meta name="format-detection" content="address=no">
     <meta name="format-detection" content="email=no">
     <meta content="notranslate" name="google">
-    <title>Главная</title>
+    <title>Брестский ПКВП — Задержание</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="dev/build/css/style.css">
     <script>
@@ -48,18 +48,23 @@
 </head>
 
 <body><noscript>У вас отключен JavaScript. Это пугает.</noscript>
+
 <div class="page__inner">
     <div class="page__content">
         <header class="page-header" role="banner">
             <div class="page-header__inner"><a class="logo" href="/"><img src="dev/build/img/logo_2.svg" alt="Logo" width="64" height="80"></a>
-                <nav class="main-nav" id="nav"><button class="burger main-nav__toggler" aria-label="Показать главное меню" data-target-id="nav" data-target-class-toggle="main-nav--open"><span>Показать главное меню</span></button>
-                    <ul class="main-nav__list">
-                        <li class="main-nav__item"><a class="main-nav__link" href="import.php">Импорт</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link" href="export.php">Экспорт</a></li>
-                        <li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href="transit.php">Транзит</a></li>
-                        <li class="main-nav__item"><a class="main-nav__link" href="detention.php">Задержание</a></li>
-                    </ul>
-                </nav>
+                <div class="page-header__wrap">
+                    <nav class="main-nav" id="nav">
+                        <!--                    <button class="burger main-nav__toggler" aria-label="Показать главное меню" data-target-id="nav" data-target-class-toggle="main-nav&#45;&#45;open"><span>Показать главное меню</span></button>-->
+                        <ul class="main-nav__list">
+                            <li class="main-nav__item"><a class="main-nav__link" href="index.php">Импорт</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link" href="export.php">Экспорт</a></li>
+                            <li class="main-nav__item"><a class="main-nav__link" href="transit.php">Транзит</a></li>
+                            <li class="main-nav__item main-nav__item--active"><a class="main-nav__link" href="detention.php">Задержание</a></li>
+                        </ul>
+                    </nav>
+                    <div class="logout"><a class="logout__link" href="logout.php">Выход</a></div>
+                </div>
             </div>
         </header>
         <div class="container">
@@ -69,8 +74,7 @@
     <div class="page__footer-wrapper">
         <footer class="page-footer" role="contentinfo">
             <div class="page-footer__inner">
-                <p>«Подвал»</p>
-                <p>Контактный телефон: <a href="tel:+70000000000">+7 000 000 00 00</a></p>
+
             </div>
         </footer>
     </div>
