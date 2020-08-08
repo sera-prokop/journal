@@ -51,14 +51,17 @@ document.documentElement.style.setProperty('--css-custom-scroll-size', `${scroll
   <div class="page__inner">
     <div class="page__content">
       <header class="page-header" role="banner">
-        <div class="page-header__inner"><a class="logo" href="/"><img src="img/logo.svg" alt="Logo" width="64" height="80"></a>
-          <nav class="main-nav" id="nav"><button class="burger main-nav__toggler" aria-label="Показать главное меню" data-target-id="nav" data-target-class-toggle="main-nav--open"><span>Показать главное меню</span></button>
-            <ul class="main-nav__list">
-              <li class="main-nav__item"><a class="main-nav__link" href="import.html">Импорт</a></li>
-              <li class="main-nav__item"><a class="main-nav__link" href="export.html">Экспорт</a></li>
-              <li class="main-nav__item"><a class="main-nav__link" href="transit.html">Транзит</a></li>
-            </ul>
-          </nav>
+        <div class="page-header__inner"><a class="logo" href="/"><img src="img/logo_2.svg" alt="Logo" width="64" height="80"></a>
+          <div class="page-header__wrap">
+            <nav class="main-nav" id="nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__item"><a class="main-nav__link" href="import.php">Импорт</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="export.php">Экспорт</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="transit.php">Транзит</a></li>
+                <li class="main-nav__item"><a class="main-nav__link" href="detention.php">Задержание</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
       <h1>Error 404</h1>

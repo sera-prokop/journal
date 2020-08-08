@@ -9,9 +9,11 @@ block meta
 
 block nav
   +main-nav('10')
+  +logout('logout.php', 'Выход')
 
 block content
-  h1 Импорт
+    +container()
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwAftvrG3cuUf91f1iaHXPQyJ6rJk7gx71cqQnkkh5ClUnvg/viewform?embedded=true" width="1000" height="3900" frameborder="0" marginheight="0" marginwidth="0" onload="loaded()">Загрузка…</iframe>
 
 //- block footer
 //-   p footer

@@ -1,0 +1,19 @@
+// В этом файле должны быть стили для БЭМ-блока logout, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.logout {
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__link{
+    padding: 0.5em 1em;
+    display: flex;
+    color: #8a1818;
+
+    &:hover, &:focus{
+      color: #8a1818;
+      text-decoration: none;
+    }
+  }
+}

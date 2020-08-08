@@ -16,7 +16,7 @@
     list-style: none;
 
     // мобильный вид списка
-    @media (max-width: ($menu-desktop-width - 1)) {
+    /*@media (max-width: ($menu-desktop-width - 1)) {
 
       // открытие/закрытие меню только в случае работающего JS
 
@@ -38,7 +38,7 @@
           max-height: none;
         }
       }
-    }
+    }*/
 
     // настольный вид списка
     @media (min-width: $menu-desktop-width) {
@@ -62,6 +62,7 @@
 
       & > #{$block-name}__link { // stylelint-disable-line  selector-combinator-blacklist
         color: #000;
+        text-decoration: underline;
       }
     }
   }
@@ -74,8 +75,8 @@
 
     &:hover,
     &:focus {
-      text-decoration: none;
-      background-color: $gray-lightest;
+      text-decoration: underline;
+      //background-color: $gray-lightest;
     }
 
     &--lvl-2 {
